@@ -1,0 +1,49 @@
+#mySidenav button {
+  position: absolute;
+  margin-top: 350px;
+  left: -110px;
+  padding: 15px;
+  width: 150px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav :hover{
+  background-color: #3d3232;
+}
+
+@media screen and (min-width: 600px) {
+  #linkedIn {
+    top: 4px;
+  }
+
+  #instagram {
+    top: 80px;
+  }
+
+  #facebook {
+    top: 155px;
+  }
+
+  #github {
+    top: 232px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #linkedIn {
+    top: -150px;
+  }
+
+  #instagram {
+    top: -75px;
+  }
+
+  #facebook {
+    top: 1px;
+  }
+
+  #github {
+    top: 78px;
+  }
+}
