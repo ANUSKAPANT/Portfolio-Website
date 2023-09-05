@@ -1,0 +1,158 @@
+.imageContent {
+  display: flex;
+  background-color: white;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+.titleHeader{
+  position: absolute;
+  color: #bcf3ff;
+  top:25%;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+  left: 15%;
+  word-wrap: break-word;
+  white-space: normal;
+  width: 300px;
+  font-size: 3rem;
+}
+
+.titleDescription{
+  position: absolute;
+  color: #bcf3ff;
+  top:40%;
+  font-family: "Courier New", monospace;
+  left: 15%;
+  word-wrap: break-word;
+  white-space: normal;
+  width: 500px;
+}
+
+.nameAnuska{
+  position: absolute;
+  color: #ffffff;
+  top:83%;
+  font-family: "Courier New", monospace;
+  left: 71%;
+  word-wrap: break-word;
+  white-space: normal;
+  width: 300px;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.image {
+ /* max-width: 100%;
+  max-height: 100vh;
+  margin: 0 auto;
+  height: auto;*/
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.imageBox{
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+  color: #fff;
+  border: 2px solid white;
+  z-index: 2;
+}
+
+.caption {
+  color: #ffffff;
+  opacity: 0;
+  -webkit-animation: fadeIn linear 3s forwards;
+  -moz-animation: fadeIn linear 3s forwards;
+  -o-animation: fadeIn linear 3s forwards;
+  -ms-animation: fadeIn linear 3s forwards;
+  animation: fadeIn linear 3s forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.blur{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.opening{
+  flex: 0 0 70%;
+  height: 100vh;
+  background-color: #24527a;
+
+}
+
+.opening2{
+  background-color: #5dacbd;
+
+  display: flex;
+  flex: 0 0 30%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .image {
+    top: 60%;
+    left: 70%;
+  }
+  .imageBox{
+    top: 68%;
+    left: 75%;
+  }
+  .caption {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image {
+    top: 40%;
+    left: 50%;
+  }
+  .caption {
+    font-size: 20px;
+  }
+}
