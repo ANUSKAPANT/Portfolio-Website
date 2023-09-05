@@ -1,0 +1,25 @@
+p{
+  color: white;
+}
+footer{
+  align-self: center;
+}
+.footer-bottom{
+  background: #24527a;
+  width: 100%;
+  padding: 20px 20px 40px;
+  text-align: center;
+  opacity: 80%;
+}
+.footer-bottom p{
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
