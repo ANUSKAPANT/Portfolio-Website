@@ -1,0 +1,119 @@
+.projects{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px calc((100% - (400px * 3)) / 2); 
+  }
+}
+@media screen and (max-width: 400px) {
+  .projects {
+    display: block;
+    margin-left: 8px;
+  }
+}
+
+.card {
+  border: 3px solid #24527a;
+  box-shadow: #24527a;
+  color: black;
+  background-size: cover;
+  max-width: 95ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  margin: 20px 12px;
+  flex-direction: column;
+  flex-basis: 48%;
+}
+
+
+.cardHover1, .cardHover2, .cardHover3, .cardHover4, .cardHover5, .cardHover6 {
+    height: 500px;
+    transform: scale(1.05);
+    background-position: left top, left bottom;
+    background-size: 100% 50%, 100% 50%;
+    background-repeat: no-repeat;
+  
+    .button{
+      display: none;
+    }
+
+    .opacity {
+      animation-name: card-animation;
+      animation-duration: 0.1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+}
+
+.cardHover1{
+  background-image:  url("../../../assets/slackbot.png"), url("../../../assets/slackbot-main.png");
+}
+.cardHover2{
+  background-image: url("../../../assets/cybersec.png"), url("../../../assets/cybersec2.png");
+}
+.cardHover3{
+  background-image: url("../../../assets/leaveCalender.png"), url("../../../assets/leaveCalender2.png");
+}
+.cardHover4{
+  background-image: url("../../../assets/softwareComp2.png"), url("../../../assets/softwareComp.png");
+ }
+
+.cardHover6{
+  background-image: url("../../../assets/rni.png"), url("../../../assets/rni1.png");
+}
+
+
+.cardImage{
+  cursor: pointer;
+}
+
+.button{
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@keyframes card-animation
+{
+  from {
+    opacity: 1;
+  }
+  to{
+    opacity: 0.75;
+  }
+  to{
+    opacity: 0.5;
+  }
+  to {
+    opacity: .25;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.cardTitle{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 1rem 0 1rem;
+}
+.cardBody{
+  font-size: 15px;
+  padding-top: 2px !important;
+}
