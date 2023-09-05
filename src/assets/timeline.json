@@ -1,0 +1,81 @@
+[
+  {
+    "text": "I teach undergraduate computer science students various subjects, including HTML/CSS, JavaScript, Java, SQL, and software engineering fundamentals, while also facilitating lab sessions and maintaining organized tutoring environments in the computer lab to enhance learning and productivity.",
+    "date": "January 2023 – Present",
+    "category": {
+      "institution": "Texas A&M University",
+      "tag": "Graduate Teaching Assistant",
+      "style": {"marginLeft" : "auto"}
+    },
+    "link": {
+      "url": "https://www.tamu.edu/index.html",
+      "text": "Read More"
+    }
+  },
+  {
+    "date": "August 2022 - May 2024",
+    "category": {
+      "institution": "Texas A&M University",
+      "tag": "Master of Computer Science",
+      "style": {"marginRight" : "auto"}
+    },
+    "link": {
+      "url": "https://www.tamu.edu/index.html",
+      "text": "Read More"
+    }
+  },
+  {
+    "text": "I created a human resource application from scratch to manage leave requests and improved an inventory management system by adding features and optimizing performance. Additionally, I provided mentorship to a junior team member, guiding them in project workflow and coding tasks.",
+    "date": "September 2020 - June 2022",
+    "category": {
+      "institution": "Danphe Software Labs",
+      "tag": "Full Stack Developer",
+      "style": {"marginLeft" : "auto"}
+
+    },
+    "link": {
+      "url": "https://danpheit.com/",
+      "text": "Read More"
+    }
+  },
+  {
+    "text": "Developed a dynamic blueprint of a software engineering company website using GatsbyJS that showcases the expertise and capabilities of a software engineering firm.",
+    "date": "August 2020 - September 2020",
+    "category": {
+      "institution": "Danphe Software Labs",
+      "tag": "Software Developer Intern",
+      "style": {"marginRight" : "auto"}
+
+    },
+    "link": {
+      "url": "https://danpheit.com/",
+      "text": "Read More"
+    }
+  },
+  {
+    "text": "Completed undergraduate degree from Pulchowk Campus (Tribhuvan University) in Electronics and Communication Engineering.",
+    "date": "December 2020",
+    "category": {
+      "institution": "Tribhuvan University, Nepal",
+      "tag": "Electronics and Communication Engineering",
+      "style": {"marginLeft" : "auto"}
+    },
+    "link": {
+      "url": "https://pcampus.edu.np/",
+      "text": "Read More"
+    }
+  },
+  {
+    "text": "",
+    "date": "May 2015",
+    "category": {
+      "institution": "St Xaviers College, Maitighar",
+      "tag": "High School",
+      "style": {"marginRight" : "auto"}
+    },
+    "link": {
+      "url": "https://www.sxc.edu.np/",
+      "text": "Read More"
+    }
+  }
+]
