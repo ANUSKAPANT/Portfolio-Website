@@ -3,7 +3,6 @@ import card1 from '../../../assets/slackbot-main.png';
 import card3 from '../../../assets/leaveCalender.png';
 import card2 from '../../../assets/cybersec.png';
 import card4 from '../../../assets/softwareComp2.png';
-import card5 from '../../../assets/softwareComp2.png';
 import card6 from '../../../assets/rni.png';
 import {Card, CardBody, CardImg, CardTitle} from "reactstrap"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

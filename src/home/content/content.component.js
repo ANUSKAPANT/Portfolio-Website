@@ -4,13 +4,15 @@ import PortfolioImage from "./portfolioimage/image.component";
 import ResumeComponent from "./resume/resume.component";
 import TimelineComponent from "./timeline/timeline.component";
 import MyworkComponent from "./mywork/mywork.component";
+import SkillsComponent from "./skills/skills.component";
 
 const ContentComponent = () => {
         return(
             <>
                 <PortfolioImage/>
-                    <TimelineComponent/>
+                <SkillsComponent />
                 <MyworkComponent/>
+                <TimelineComponent/>
                 <ResumeComponent/>
             </>
         );

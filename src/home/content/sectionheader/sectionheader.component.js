@@ -1,6 +1,6 @@
 import './sectionheader.component.scss';
 
-const SectionHeaderComponent = ({sectionName}: any) => {
+const SectionHeaderComponent = ({sectionName}) => {
     return(
         <div className="parent">
             <div className="background">
