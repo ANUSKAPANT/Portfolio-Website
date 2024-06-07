@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.1be40199.css",
-    "main.js": "/Portfolio-Website/static/js/main.bfaba56e.js",
+    "main.css": "/Portfolio-Website/static/css/main.5e25e7d8.css",
+    "main.js": "/Portfolio-Website/static/js/main.03887129.js",
     "static/media/anuska.jpg": "/Portfolio-Website/static/media/anuska.a593d1bdcc54e6574f01.jpg",
     "static/media/softwareComp2.png": "/Portfolio-Website/static/media/softwareComp2.3efc13963073bbe001a3.png",
     "static/media/rni.png": "/Portfolio-Website/static/media/rni.af92fa26509a6673f7e9.png",
@@ -12,14 +12,14 @@
     "static/media/cybersec2.png": "/Portfolio-Website/static/media/cybersec2.28d363bfcc8f05b8202c.png",
     "static/media/slackbot.png": "/Portfolio-Website/static/media/slackbot.9825283ff01eb3e0bec7.png",
     "static/media/slackbot-main.png": "/Portfolio-Website/static/media/slackbot-main.66e3103038d021910ee3.png",
-    "static/media/anuskaresume.pdf": "/Portfolio-Website/static/media/anuskaresume.f3dc9b8df84711e2103f.pdf",
+    "static/media/anuskaresume.pdf": "/Portfolio-Website/static/media/anuskaresume.cf0ac0ac19a8339f2e19.pdf",
     "static/media/leaveCalender.png": "/Portfolio-Website/static/media/leaveCalender.ede960437770cad90465.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.1be40199.css.map": "/Portfolio-Website/static/css/main.1be40199.css.map",
-    "main.bfaba56e.js.map": "/Portfolio-Website/static/js/main.bfaba56e.js.map"
+    "main.5e25e7d8.css.map": "/Portfolio-Website/static/css/main.5e25e7d8.css.map",
+    "main.03887129.js.map": "/Portfolio-Website/static/js/main.03887129.js.map"
   },
   "entrypoints": [
-    "static/css/main.1be40199.css",
-    "static/js/main.bfaba56e.js"
+    "static/css/main.5e25e7d8.css",
+    "static/js/main.03887129.js"
   ]
 }
