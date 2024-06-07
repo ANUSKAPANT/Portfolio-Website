@@ -32,7 +32,7 @@ const MyworkComponent = () => {
           </CardTitle>
           <CardBody className="opacity cardBody">
             <div className="tech">Angular, BootStrap, Firebase, Github</div>
-            A Simple Application to allow users to CRUD recipes and manage shopping list.{" "}
+            This application is a comprehensive recipe management tool that lets users create, read, update, and delete recipes. It leverages Firebase for database management and hosting and also incorporates Firebase authentication for user access control. Additionaly, it employs Angular features such as services, guards, interceptors and modules to ensure a robust and modular architecture.{" "}
           </CardBody>
           <FontAwesomeIcon
             className="button"
@@ -101,8 +101,7 @@ const MyworkComponent = () => {
             This application, tailored for Texas A&M University's cybersecurity
             department, efficiently manages certificates. Its standout feature
             is the seamless creation of standardized records from diverse CSV
-            files supplied by various vendors. Developed using React and Ruby on
-            Rails, it serves as a powerful data management tool.
+            files supplied by various vendors.
           </CardBody>
           <FontAwesomeIcon
             className="button"
@@ -139,9 +138,7 @@ const MyworkComponent = () => {
             admin side, the application provides comprehensive record-keeping
             capabilities for all leave requests. Admins have the authority to
             review and make decisions on each request, either approving or
-            rejecting them. This robust application is built using a combination
-            of React and Ruby on Rails technologies, ensuring efficient and
-            user-friendly leave request management.
+            rejecting them.
           </CardBody>
           <FontAwesomeIcon
             className="button"
