@@ -30,8 +30,7 @@ const PortfolioImage = () => {
         }
     }
     return(
-        <div className="imageContent">
-            <div className='row'>
+        <div className="imageContent row">
             <div className="opening col-xs-12 col-md-8">
                 <div className="aboutMeDesc">
                     <h1 className="titleHeader">
@@ -56,9 +55,7 @@ const PortfolioImage = () => {
                     </p>
                 </div>
                 <img className="image" id='image' src={useImage} alt="portfolioImage"/>
-                    
                 </div>
-            </div>
         </div>
     );
 }
