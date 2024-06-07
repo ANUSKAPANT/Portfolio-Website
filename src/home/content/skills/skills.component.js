@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <SectionHeaderComponent sectionName={'Skills'}/>
-      <div id="skills" className="skills">
+      <div id="skills" className="skills row">
         <img alt="C++" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
         <img alt="C#" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
         <img alt=".Net" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />

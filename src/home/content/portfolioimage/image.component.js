@@ -31,7 +31,8 @@ const PortfolioImage = () => {
     }
     return(
         <div className="imageContent">
-            <div className="opening">
+            <div className='row'>
+            <div className="opening col-xs-12 col-md-8">
                 <div className="aboutMeDesc">
                     <h1 className="titleHeader">
                         SOFTWARE ENGINEER.
@@ -45,14 +46,18 @@ const PortfolioImage = () => {
                         my Master's in Computer Science. I am enthusiastic about tackling 
                         coding challenges and committed to continuous learning.
                     </p>
+                   
+                </div>
+            </div>
+            <div className="opening2 col-xs-12 col-md-4">
+                <div className="imageBox">
                     <p className="nameAnuska">
                         ANUSKA PANT
                     </p>
                 </div>
-            </div>
-            <div className="imageBox"/>
-            <img className="image" id='image' src={useImage} alt="portfolioImage"/>
-            <div className="opening2">
+                <img className="image" id='image' src={useImage} alt="portfolioImage"/>
+                    
+                </div>
             </div>
         </div>
     );

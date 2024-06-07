@@ -7,8 +7,6 @@ const SectionHeaderComponent = ({sectionName}) => {
             </div>
             <p className="sectionName">{sectionName}</p>
         </div>
-            
-        
     );
 }
 export default SectionHeaderComponent;
