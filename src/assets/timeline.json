@@ -1,7 +1,7 @@
 [
   {
-    "text": "I teach undergraduate computer science students various subjects, including HTML/CSS, JavaScript, Java, SQL, and software engineering fundamentals, while also facilitating lab sessions and maintaining organized tutoring environments in the computer lab to enhance learning and productivity.",
-    "date": "January 2023 – Present",
+    "text": "Conducted bi-weekly lab sessions and tutored undergraduates in software engineering and web development, covering HTML/CSS, JavaScript, Java, SQL, and more. Provided hands-on guidance in server-client programming, enhancing practical skills in web application design, implementation, testing, and debugging.",
+    "date": "January 2023 – May 2024",
     "category": {
       "institution": "Texas A&M University",
       "tag": "Graduate Teaching Assistant",
@@ -25,7 +25,7 @@
     }
   },
   {
-    "text": "I created a human resource application from scratch to manage leave requests and improved an inventory management system by adding features and optimizing performance. Additionally, I provided mentorship to a junior team member, guiding them in project workflow and coding tasks.",
+    "text": "Developed a comprehensive inventory management software with robust backend (40+ APIs) and user-friendly frontend features. Built a complete HR system, enhanced the company's online presence with a React-based website, and mentored a junior developer.",
     "date": "September 2020 - June 2022",
     "category": {
       "institution": "Danphe Software Labs",
