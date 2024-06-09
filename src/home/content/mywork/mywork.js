@@ -40,7 +40,7 @@ const MyworkComponent = () => {
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
-                "https://arecipe-book.web.app/recipes";
+                "";
             }}
           />
           <CardImg
