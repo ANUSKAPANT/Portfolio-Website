@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import "./header.component.scss";
-import SideNav from "../sidenav/sidenav.component";
+import "./header.css";
+import SideNav from "../sidenav/sidenav";
 import * as React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -15,9 +15,13 @@ const Header = () => {
     const isSticky = () => {
         const scrollTop = window.scrollY;
         const header = document.querySelector(".header");
-        scrollTop >= 80
-        ? header?.classList.add("is-sticky")
-        : header?.classList.remove("is-sticky");
+        if(header) {
+            if( scrollTop >= 80 ) {
+                header.classList.add("is-sticky")
+            } else {
+                header.classList.remove("is-sticky");
+            }
+        }
     };
 
     return (

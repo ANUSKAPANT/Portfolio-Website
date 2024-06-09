@@ -1,5 +1,7 @@
-import './timelineitem.component.scss';
-const TimelineItem = ({data} : any) => (
+import './timelineitem.css';
+import * as React from "react";
+
+const TimelineItem = ({data}) => (
     <div className="timeline-item">
         <div className="timeline-item-content">
             <span className="tag" style={data.category.style}>

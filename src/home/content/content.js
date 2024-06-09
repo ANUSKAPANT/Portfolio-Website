@@ -1,10 +1,10 @@
 import * as React from "react";
-import './content.component.scss';
-import PortfolioImage from "./portfolioimage/image.component";
-import ResumeComponent from "./resume/resume.component";
-import TimelineComponent from "./timeline/timeline.component";
-import MyworkComponent from "./mywork/mywork.component";
-import SkillsComponent from "./skills/skills.component";
+import './content.css';
+import PortfolioImage from "./portfolioimage/image";
+import ResumeComponent from "./resume/resume";
+import TimelineComponent from "./timeline/timeline";
+import MyworkComponent from "./mywork/mywork";
+import SkillsComponent from "./skills/skills";
 
 const ContentComponent = () => {
         return(

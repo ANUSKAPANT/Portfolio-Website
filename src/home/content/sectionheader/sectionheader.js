@@ -1,4 +1,5 @@
-import './sectionheader.component.scss';
+import './sectionheader.css';
+import * as React from "react";
 
 const SectionHeaderComponent = ({sectionName}) => {
     return(

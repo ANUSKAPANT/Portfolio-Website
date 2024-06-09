@@ -1,6 +1,6 @@
 import React from 'react';
-import SectionHeaderComponent from '../sectionheader/sectionheader.component';
-import './skills.component.scss';
+import SectionHeaderComponent from '../sectionheader/sectionheader';
+import './skills.css';
 
 const Skills = () => {
   return (

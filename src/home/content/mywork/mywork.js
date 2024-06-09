@@ -1,27 +1,25 @@
-import "./mywork.component.scss";
+import "./mywork.css";
 import card1 from "../../../assets/slackbot-main.png";
 import card3 from "../../../assets/leaveCalender.png";
 import card2 from "../../../assets/cybersec.png";
 import card4 from "../../../assets/softwareComp2.png";
 import card6 from "../../../assets/rni.png";
 import card7 from "../../../assets/recipes.png";
-
 import { Card, CardBody, CardImg, CardTitle } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as React from "react";
 import { faExternalLinkSquare } from "@fortawesome/free-solid-svg-icons/faExternalLinkSquare";
 import { useState } from "react";
-import SectionHeaderComponent from "../sectionheader/sectionheader.component";
+import SectionHeaderComponent from "../sectionheader/sectionheader";
 
 const MyworkComponent = () => {
   const [isOver, setOver] = useState(false);
   const [cardNumber, setCardNumber] = useState("");
   const card = document.querySelector(`.card${cardNumber}`);
-  console.log(card);
-  cardNumber !== "" && isOver
-    ? card?.classList.add(`cardHover${cardNumber}`)
-    : card?.classList.remove(`cardHover${cardNumber}`);
 
+  if(card && cardNumber !== "" && isOver) card.classList.add(`cardHover${cardNumber}`);
+  else if(card) card.classList.remove(`cardHover${cardNumber}`);
+  
   return (
     <>
       <SectionHeaderComponent sectionName={"Projects"} />

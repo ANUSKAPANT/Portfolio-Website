@@ -1,12 +1,10 @@
 import * as React from "react";
-import './sidenav.component.scss';
+import './sidenav.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import {faPhone} from "@fortawesome/free-solid-svg-icons/faPhone";
-
-
 
 const SideNav = () => {
     return (

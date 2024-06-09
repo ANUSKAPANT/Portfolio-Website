@@ -1,7 +1,8 @@
-import './timeline.component.scss';
+import './timeline.css';
 import timelineData from '../../../assets/timeline.json';
-import TimelineItem from "./timelineitem/timelineitem.component";
-import SectionHeaderComponent from "../sectionheader/sectionheader.component";
+import TimelineItem from "./timelineitem/timelineitem";
+import SectionHeaderComponent from "../sectionheader/sectionheader";
+import * as React from "react";
 
 
 const TimelineComponent = () => {

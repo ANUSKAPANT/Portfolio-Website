@@ -1,15 +1,17 @@
-import './image.component.scss';
+import './image.css';
 import portFolioImage from '../../../assets/anuska.jpg';
 import portFolioImage1 from '../../../assets/anuska.jpg';
-import {useEffect, useState} from "react";
+import React, {useEffect, useState } from "react";
+
 const PortfolioImage = () => {
     const [useImage, setImage] = useState('');
     const [windowHeight, setWindowHeight] = useState(0);
     const [windowWidth, setWindowWidth] = useState(0);
     let resizeWindow = () => {
         setWindowHeight(window.innerHeight);
-        setWindowHeight(window.innerWidth);
+        setWindowWidth(window.innerWidth);
     };
+    
     useEffect(() => {
         resizeWindow();
         window.addEventListener('resize', resizeWindow);
@@ -19,17 +21,20 @@ const PortfolioImage = () => {
             window.removeEventListener('resize', resizeWindow);
             window.addEventListener('scroll', scroll);
         }
-    }, [windowHeight, windowWidth]);
+    }, [useImage, windowHeight, windowWidth]);
+    
     const scroll = () => {
         const currentScroll = window.scrollY;
         const header = document.querySelector('.image');
-        if(currentScroll >= 400) {
-            header?.classList.add('blur')
-        } else{
-            header?.classList.remove('blur')
+        if(header) {
+            if(currentScroll >= 400) {
+                header.classList.add('blur')
+            } else{
+                header.classList.remove('blur')
+            }
         }
     }
-    return(
+    return (
         <div className="imageContent row">
             <div className="opening col-xs-12 col-md-8">
                 <div className="aboutMeDesc">
