@@ -15,13 +15,14 @@ const Header = () => {
     const isSticky = () => {
         const scrollTop = window.scrollY;
         const header = document.querySelector(".header");
-        if(header) {
+        // scrollTop >= 80 ? header?.classList.add("is-sticky") :  header?.classList.remove("is-sticky");
+        // if(header) {
             if( scrollTop >= 80 ) {
-                header.classList.add("is-sticky")
+                header.classList.add("is-sticky");
             } else {
                 header.classList.remove("is-sticky");
             }
-        }
+        // }
     };
 
     return (

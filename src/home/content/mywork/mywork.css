@@ -25,7 +25,7 @@
 }
 
 
-.cardHover1, .cardHover2, .cardHover3, .cardHover4, .cardHover5, .cardHover6, .cardHover7{
+.cardHover1, .cardHover2, .cardHover3, .cardHover4, .cardHover5, .cardHover6, .cardHover7, .cardHover8{
     height: 500px;
     transform: scale(1.05);
     background-position: left top, left bottom;
@@ -63,6 +63,10 @@
 
 .cardHover7{
   background-image: url("../../../assets/recipes.png"), url("../../../assets/recipenew.png");
+}
+
+.cardHover8 {
+  background-image: url("../../../assets/management.png"), url("../../../assets/projectmanagement.png");
 }
 
 

@@ -5,6 +5,8 @@ import card2 from "../../../assets/cybersec.png";
 import card4 from "../../../assets/softwareComp2.png";
 import card6 from "../../../assets/rni.png";
 import card7 from "../../../assets/recipes.png";
+import card8 from "../../../assets/management.png";
+
 import { Card, CardBody, CardImg, CardTitle } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as React from "react";
@@ -24,6 +26,36 @@ const MyworkComponent = () => {
     <>
       <SectionHeaderComponent sectionName={"Projects"} />
       <div id="projects" className="projects row">
+      <Card className="card8 col-xs-12 col-md-5 col-lg-5 my-3">
+          <CardTitle className="opacity cardTitle">
+            Project Management Tool
+          </CardTitle>
+          <CardBody className="opacity cardBody">
+            <div className="tech">C#, ASP.NET Core, ReactJs, BootStrap, Azure, Docker, Github</div>
+            This is project management tool with a Kanban board interface for task organization and collaboration. It employs ASP.NET Core for backend RESTful APIs, Entity Framework Core for data management, and IdentityUser for token-based user authentication.{" "}
+          </CardBody>
+          <FontAwesomeIcon
+            className="button"
+            icon={faExternalLinkSquare}
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://arecipe-book.web.app/recipes";
+            }}
+          />
+          <CardImg
+            className="opacity cardImage"
+            src={card8}
+            onMouseOver={() => {
+              setCardNumber("8");
+              return setOver(true);
+            }}
+            onMouseOut={() => {
+              setCardNumber("8");
+              setOver(false);
+            }}
+          />
+        </Card>
       <Card className="card7 col-xs-12 col-md-5 col-lg-5 my-3">
           <CardTitle className="opacity cardTitle">
             Recipe Book
