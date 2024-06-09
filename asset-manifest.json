@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.aca6e3d2.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.7878157e.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.7878157e.chunk.js.map",
-    "runtime~main.js": "/Portfolio-Website/static/js/runtime~main.e524495c.js",
-    "runtime~main.js.map": "/Portfolio-Website/static/js/runtime~main.e524495c.js.map",
-    "static/css/2.98036eff.chunk.css": "/Portfolio-Website/static/css/2.98036eff.chunk.css",
-    "static/js/2.c5052fa0.chunk.js": "/Portfolio-Website/static/js/2.c5052fa0.chunk.js",
-    "static/js/2.c5052fa0.chunk.js.map": "/Portfolio-Website/static/js/2.c5052fa0.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.ce744d66.css",
+    "main.js": "/Portfolio-Website/static/js/main.6e581086.js",
+    "static/media/anuska.jpg": "/Portfolio-Website/static/media/anuska.a593d1bdcc54e6574f01.jpg",
+    "static/media/softwareComp2.png": "/Portfolio-Website/static/media/softwareComp2.3efc13963073bbe001a3.png",
+    "static/media/recipenew.png": "/Portfolio-Website/static/media/recipenew.69d72b05a4dad474efe1.png",
+    "static/media/rni.png": "/Portfolio-Website/static/media/rni.af92fa26509a6673f7e9.png",
+    "static/media/projectmanagement.png": "/Portfolio-Website/static/media/projectmanagement.e14cd770fbf5e8e3870b.png",
+    "static/media/recipes.png": "/Portfolio-Website/static/media/recipes.f11543eecc3c750d9c42.png",
+    "static/media/rni1.png": "/Portfolio-Website/static/media/rni1.8e0b646f29a44bf7bc84.png",
+    "static/media/cybersec.png": "/Portfolio-Website/static/media/cybersec.fd543d8fa3431934bada.png",
+    "static/media/leaveCalender2.png": "/Portfolio-Website/static/media/leaveCalender2.273c17fa07ffbdfe2897.png",
+    "static/media/management.png": "/Portfolio-Website/static/media/management.f9c1db8143ec40348032.png",
+    "static/media/softwareComp.png": "/Portfolio-Website/static/media/softwareComp.b8500651752fa44ec504.png",
+    "static/media/cybersec2.png": "/Portfolio-Website/static/media/cybersec2.28d363bfcc8f05b8202c.png",
+    "static/media/slackbot.png": "/Portfolio-Website/static/media/slackbot.9825283ff01eb3e0bec7.png",
+    "static/media/slackbot-main.png": "/Portfolio-Website/static/media/slackbot-main.66e3103038d021910ee3.png",
+    "static/media/anuskaresume.pdf": "/Portfolio-Website/static/media/anuskaresume.cf0ac0ac19a8339f2e19.pdf",
+    "static/media/leaveCalender.png": "/Portfolio-Website/static/media/leaveCalender.ede960437770cad90465.png",
     "index.html": "/Portfolio-Website/index.html",
-    "precache-manifest.1ad7e70aaf5943cb74d1bb2576744188.js": "/Portfolio-Website/precache-manifest.1ad7e70aaf5943cb74d1bb2576744188.js",
-    "service-worker.js": "/Portfolio-Website/service-worker.js",
-    "static/css/2.98036eff.chunk.css.map": "/Portfolio-Website/static/css/2.98036eff.chunk.css.map",
-    "static/css/main.aca6e3d2.chunk.css.map": "/Portfolio-Website/static/css/main.aca6e3d2.chunk.css.map",
-    "static/media/anuska.jpg": "/Portfolio-Website/static/media/anuska.7278f7bf.jpg",
-    "static/media/anuskaresume.pdf": "/Portfolio-Website/static/media/anuskaresume.41ec7b0f.pdf",
-    "static/media/mywork.css": "/Portfolio-Website/static/media/softwareComp2.61d71397.png"
-  }
+    "main.ce744d66.css.map": "/Portfolio-Website/static/css/main.ce744d66.css.map",
+    "main.6e581086.js.map": "/Portfolio-Website/static/js/main.6e581086.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce744d66.css",
+    "static/js/main.6e581086.js"
+  ]
 }
