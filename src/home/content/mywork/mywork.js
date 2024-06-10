@@ -31,7 +31,7 @@ const MyworkComponent = () => {
             Project Management Tool
           </CardTitle>
           <CardBody className="opacity cardBody">
-            <div className="tech">C#, ASP.NET Core, ReactJs, BootStrap, Azure, Docker, Github</div>
+            <div className="tech">C#, ASP.NET Core, ReactJs, BootStrap, Azure,Github</div>
             This is project management tool with a Kanban board interface for task organization and collaboration. It employs ASP.NET Core for backend RESTful APIs, Entity Framework Core for data management, and IdentityUser for token-based user authentication.{" "}
           </CardBody>
           <FontAwesomeIcon
@@ -40,7 +40,7 @@ const MyworkComponent = () => {
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
-                "";
+                "https://github.com/ANUSKAPANT/Management-Tools";
             }}
           />
           <CardImg
