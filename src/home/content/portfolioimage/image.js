@@ -45,10 +45,8 @@ const PortfolioImage = () => {
                         Full stack developer skilled in creating elegant UIs, 
                         efficient databases and optimized backends. 
                         With 2 years of experience in dynamic web app development using HTML,
-                        CSS, React Js, PostgreSQL, and Ruby on Rails, I
-                        have also dived into C++ and Python projects during
-                        my Master's in Computer Science. I am enthusiastic about tackling 
-                        coding challenges and committed to continuous learning.
+                        CSS, React Js, PostgreSQL, and Ruby on Rails and knowledgeable of C#, ASP.NET Core and AngularJS.
+                        I am enthusiastic about tackling coding challenges and committed to continuous learning.
                     </p>
                    
                 </div>
